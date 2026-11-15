@@ -1,0 +1,16 @@
+[package]
+name = "rtc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { workspace = true }
+webrtc = { workspace = true }
+webrtc-core = { workspace = true }
+bytes = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+async-trait = { workspace = true }
+audio = { path = "../audio" }
+futures-util = { workspace = true }
+tokio-tungstenite = { workspace = true }

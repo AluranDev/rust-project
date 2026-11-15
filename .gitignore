@@ -1,0 +1,8 @@
+/target
+
+/docs/
+**/docs/
+*.md
+.idea/
+.env
+.env.*
